@@ -1,0 +1,108 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   text-align: justify;
+
+   background-color: #3d3830;
+   color: #e8e0d3;
+
+   font-family: "Fira Sans";
+}
+
+html {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+body {
+   width: 50rem;
+   padding-bottom: 10rem;
+}
+
+
+nav {
+   margin-top: 2.5rem;
+}
+
+
+h1 {
+   margin-top: 10rem;
+}
+
+h2 {
+   margin-top: 5rem;
+}
+
+h3 {
+   margin-top: 2.5rem;
+}
+
+a {
+   text-decoration: none;
+   font-weight: bold;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+p {
+   margin-top: 1.25rem;
+}
+
+
+main {
+   margin-top: 2.5rem;
+}
+
+img {
+   margin-top: 2.5rem;
+   width: 100%;
+}
+
+
+input,
+button {
+   border: 2px solid #e8e0d3;
+   border-radius: 1rem;
+   padding: 0.375rem 0.75rem;
+}
+
+input[type="file"] {
+   width: 0px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+label {
+   border: 2px solid #e8e0d3;
+   border-radius: 1rem;
+   padding: 0.375rem 0.75rem;
+}
+
+fieldset {
+   margin-top: 2.5rem;
+   border: none;
+   display: flex;
+   justify-content: flex-start;
+}
+
+fieldset > * {
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+fieldset > *:first-child {
+   margin-left: 0rem;
+}
+
+fieldset > *:last-child {
+   margin-right: 0rem;
+}
+
+fieldset > input[type="text"] {
+   flex-grow: 1;
+}
